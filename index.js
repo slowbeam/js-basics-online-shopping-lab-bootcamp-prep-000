@@ -11,6 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
 var itemInfo = {};
+cart.push(item);
 }
 
 function viewCart() {
